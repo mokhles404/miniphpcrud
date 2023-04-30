@@ -1,0 +1,192 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 5% ;
+    background-color: rgb(209, 195, 185);
+  }
+  
+ 
+  h2 {
+    font-size: 28px;
+    margin: 20px;
+  }
+  
+
+  form {
+    margin: 20px;
+  }
+  
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 0.8;
+  }
+  
+  .like-button {
+    background-color: #4CAF50;
+  }
+  
+  .dislike-button {
+    background-color: #F44336;
+  }
+  .report-button {
+    background-color: #3a087c;
+    color: #000;
+  }
+  
+  .delete-button {
+    background-color: #333;
+  }
+  
+ 
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #cccccc;
+    margin: 20px;
+  }
+  
+  .post-meta {
+    font-style: italic;
+    color: #999;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .post-content {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+  }
+ 
+.post-actions {
+  display: flex;
+  justify-content: flex-end;
+  
+
+}
+
+
+.like-button:hover, .dislike-button:hover, .report-button:hover, .delete-button:hover {
+  background-color: #3e8e41;
+}
+
+.like-button:active, .dislike-button:active, .report-button:active, .delete-button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+
+
+
+.post {
+  background-color: #f9f9f9;
+  margin: 10px 10%;
+  border-radius: 5px;
+}
+.menu {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu li a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu li a:hover {
+  background-color: #a58989;
+}
+
+.edit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #0062cc;
+}
+
+.post-likes {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+.post-likes span {
+  margin: 0 10px;
+}
+
+
