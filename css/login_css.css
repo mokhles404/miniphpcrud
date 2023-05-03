@@ -34,6 +34,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 20px;
+    height: 40px;
   }
   
   input[type="submit"] {
@@ -62,24 +63,19 @@ body {
   
 
   .signup-text {
-    font-size: 18px;
+    font-size: 14px;
     color: #555;
     margin: 20px 0;
     text-align: center;
   }
   
   .signup-text a {
-    color: #fff;
-    background-color: #007bff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    color: #007bff;
     text-decoration: none;
-    transition: all 0.3s ease;
   }
   
   .signup-text a:hover {
-    background-color: #0069d9;
-    color: #fff;
+    text-decoration: underline;
   }
 
   .login-link {

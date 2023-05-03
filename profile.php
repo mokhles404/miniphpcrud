@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <button type="submit" class="delete-button">Delete</button>
             </form>
             
-            <a href="postedit.php?post_id=<?php echo $post["id"]; ?>" >Edit Post</a>
+            <a href="postedit.php?post_id=<?php echo $post["id"]; ?>" class="edit-button">Edit Post</a>
         
 
           </div>

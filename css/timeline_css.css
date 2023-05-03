@@ -76,7 +76,7 @@ body {
   }
   
   .dislike-button {
-    background-color: #F44336;
+    background-color: #912b24;
     width: 150;
   }
   .report-button {
@@ -116,7 +116,8 @@ body {
  
 .post-actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  background-color: #f1f1f1;
   
 
 }
@@ -188,7 +189,11 @@ body {
   height: 22;
 }
 
-
+.post-form{
+  margin-left: 10%;
+  margin-right: 10%;
+  /* background-color: #0062cc; */
+}
 .post-button {
   display: block;
   padding: 10px 20px;
